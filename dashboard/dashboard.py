@@ -244,12 +244,7 @@ with tab3:
         st.pyplot(fig)
         plt.close(fig)
     with c2:
-        st.markdown("**Peta lokasi stasiun** (basemap, butuh koneksi internet):")
-        try:
-            st.map(geo_avg.rename(columns={"lat": "latitude", "lon": "longitude"}),
-                   latitude="latitude", longitude="longitude", size=pollutant)
-        except Exception:
-            st.info("Basemap tidak dapat dimuat (tidak ada koneksi internet).")
+        st.markdown("**Tabel rata-rata per stasiun (diurutkan dari tertinggi):**")
         st.dataframe(
             geo_avg.sort_values(pollutant, ascending=False).reset_index(drop=True),
             width="stretch",
