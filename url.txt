@@ -1,10 +1,1 @@
-Dashboard belum di-deploy ke Streamlit Community Cloud.
-
-Dashboard sudah siap dan sudah diuji berjalan lancar secara lokal
-(lihat dashboard/dashboard.py). Untuk men-deploy-nya sendiri ke Streamlit
-Community Cloud, ikuti langkah-langkah pada README.md bagian
-"Men-deploy ke Streamlit Community Cloud".
-
-Setelah berhasil deploy, ganti isi file ini dengan tautan dashboard Anda,
-contoh:
-https://nama-app-anda.streamlit.app
+https://air-quality-dashboard-6bwfyexrppn7ygcfsshbvj.streamlit.app/
